@@ -1,4 +1,4 @@
-public abstract class Bank implements Verification {
+public abstract class Bank implements Verification, Payment {
 
 	private int currentBalance;
 	private int bonus;
@@ -26,11 +26,21 @@ public abstract class Bank implements Verification {
 	}
 
 	public boolean verifyPhoneNumber(){
-
+		if (phoneNumber != ) {
+			return false
+		}
+		else {
+			return true;
+		}
 	}
 
 	public boolean verifyPassword(){
-
+		if (password !=) {
+			return false;
+		}
+		else {
+			return true;
+		}
 	}
 
 	public void pay(){
